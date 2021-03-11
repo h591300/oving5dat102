@@ -1,0 +1,19 @@
+Når vi har tall som ikke finnes i tabellen, vil vi få maks antall rekursive gjennomganger.
+Dette blir da |log2n| ganger igjenom.
+		Integer[] tab = { 7, 3, 1, 9, 2, 4, 6, 5, 12, 15};
+		long tidfor=System.nanoTime();
+		//utvalgsSortering(tab);
+		//sorteringVedInnsetting(tab);
+		//bobleSortering(tab);
+		//fletteSort(tab, 0, tab.length - 1);
+		kvikkSort(tab, 0, tab.length - 1);
+		
+		
+//		long tidetter = System.nanoTime();
+//		long tid=(tidetter-tidfor);
+//		System.out.println(tid);
+//		for (Integer e : tab) {
+//			System.out.print(e + " ");
+//		}
+//
+//		System.out.println();
