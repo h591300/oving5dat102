@@ -11,7 +11,7 @@ public class oppgave1 {
 		}
 	}
 	
-	public int an(int n) {
+	public static int an(int n) {
 		if(n>1){
 			return 5*an(n-1)-6*an(n-2)+2;
 		}
@@ -26,4 +26,10 @@ public class oppgave1 {
 		return 0;
 	}
 	
+	public static void main(String[] args) {
+	
+		System.out.println(SumN(100));
+		System.out.println(an(10));
+		
+	}
 }

@@ -23,6 +23,6 @@ public class binaersoeking {
 
 	public static void main(String[] args) {
 		int[] tab = {2,4,5,7,8,10,12,15,18,21,23,27,29,30,31};
-		binaerSoek(tab, 2,31, 2);
+		//binaerSoek(tab, 2,31, 2);
 	}
 }
