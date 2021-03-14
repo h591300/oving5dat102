@@ -190,9 +190,10 @@ public class Sorteringsalgoritmer {
 			bobleSortering(a[i]); // blir ein eindimensjonal tabell
 		}
 		long tidetter = System.nanoTime();
-		long tid=(tidetter-tidfor)/1000000000;
-		
-		System.out.println(tid);
+	 	long hundredel=(tidetter-tidfor)/1000000;
+	 	long sek=hundredel/1000;
+		System.out.print(sek+".");
+		System.out.print(hundredel-(sek*1000)+" sekunder");
 		
 		
 

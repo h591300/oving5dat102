@@ -1,5 +1,8 @@
 Når vi har tall som ikke finnes i tabellen, vil vi få maks antall rekursive gjennomganger.
 Dette blir da |log2n| ganger igjenom.
+
+
+
 		Integer[] tab = { 7, 3, 1, 9, 2, 4, 6, 5, 12, 15};
 		long tidfor=System.nanoTime();
 		//utvalgsSortering(tab);
