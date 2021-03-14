@@ -182,20 +182,20 @@ public class Sorteringsalgoritmer {
 		// set inn tilfeldige heiltal i alle rekker
 			for (int i = 0; i < antal; i++){
 				for (int j = 0; j < n; j++){
-					a[i][j] = tilfeldig.nextInt();
+					a[i][j] = 3;
 			}
 		}
 		long tidfor=System.nanoTime();
 		for (int i = 0; i < antal; i++){
-			bobleSortering(a[i]); // blir ein eindimensjonal tabell
+			kvikkSort(a[i], 0, a.length - 1);
 		}
 		long tidetter = System.nanoTime();
 	 	long hundredel=(tidetter-tidfor)/1000000;
 	 	long sek=hundredel/1000;
 		System.out.print(sek+".");
 		System.out.print(hundredel-(sek*1000)+" sekunder");
+		System.out.println(tidetter-tidfor);
 		
 		
-
 	}
 }

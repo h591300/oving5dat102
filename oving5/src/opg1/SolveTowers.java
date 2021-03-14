@@ -13,8 +13,6 @@ public class SolveTowers {
 	 	long sek=hundredel/1000;
 		System.out.print(sek+".");
 		System.out.print(hundredel-(sek*1000)+" sekunder");
-
-
 	 }
 	
 }
