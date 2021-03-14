@@ -33,5 +33,6 @@ public class oppgave1 {
 			System.out.print(an(i)+", ");
 		}
 
+
 	}
 }

@@ -21,5 +21,12 @@ public class binaersoeking {
 		}
 		
 
+<<<<<<< HEAD
 
+=======
+	public static void main(String[] args) {
+		int[] tab = {2,4,5,7,8,10,12,15,18,21,23,27,29,30,31};
+		//binaerSoek(tab, 2,31, 2);
+	}
+>>>>>>> c04da9d1713498d6791eedc6cda5cd60253be7fc
 }
